@@ -1,0 +1,84 @@
+@font-face {
+    font-family: Youngserif;
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+h1{
+    font-family: Variable;
+}
+table{
+    padding: 8px;
+    width: 100%;
+    border-collapse: collapse;
+}
+td{
+    border-bottom: 1px solid grey;
+    padding-bottom: 15px;
+}
+td:last-of-type{
+    color:hsl(14, 45%, 36%);
+    font-weight: 700;
+}   
+@media screen and (max-width:767px) {
+    body{
+        font-family: youngserif;
+    }
+    .Main{
+        padding-left: 30px;
+    }
+    img{
+        width: 100%;
+    }
+    .Two{
+        background-color:hsl(330, 100%, 98%) ;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    .Two h2{
+        color:  hsl(332, 51%, 32%);
+    }
+    h2{
+        color:hsl(14, 45%, 36%);
+
+    }
+}
+
+@media screen and (min-width:767px) and (max-width:9999px) {
+p{
+    font-family: variable;
+}   
+body{
+    font-family: Youngserif;
+    background-color: hsl(330, 100%, 98%);
+}
+.Main{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 10%;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+.One{
+    margin-top: 20px;
+}
+.One img{
+    width: 90%;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.Four li{
+    margin-bottom: 20px;
+}
+table{
+    padding: 8px;
+    width: 100%;
+    border-collapse: collapse;
+}
+td{
+    border-bottom: 1px solid grey;
+    padding-bottom: 15px;
+}
+}
